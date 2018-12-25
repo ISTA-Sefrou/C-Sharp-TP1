@@ -38,7 +38,7 @@ namespace APP1
 
                 cmd.ExecuteNonQuery();
 
-                MessageBox.Show("bien ajouté");
+                MessageBox.Show("bien ajouté 2");
 
                 cmd = new SqlCommand("select * from clients", cnx);
                 DataTable t = new DataTable();
